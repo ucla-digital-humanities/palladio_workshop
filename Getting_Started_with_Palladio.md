@@ -238,7 +238,7 @@ them visualized simultaneously!
 If you want to temporarily collapse your timeline so that you can see
 the map better, click on the downward-pointing arrow on the right of the
 timeline pane. To get rid of the date filter, click on the pink "x" next
-to the datespan above the graph**.**
+to the datespan above the graph.
 
 Note: If you're unable to "grab" your timeline in order to filter it, it
 may help to lengthen your browser window.
@@ -252,7 +252,7 @@ You've now narrowed your data down to 1940–1942. Now let's try filtering
 and visualizing your data using other attributes. We can do this with a
 **Facet** filter.
 
-Click on the **Facet** tab**.** (You'll probably want to compress your
+Click on the **Facet** button. (You'll probably want to compress your
 Timeline window by clicking on the downward-pointing arrow that appears
 on the upper right-hand corner of the pane.)
 

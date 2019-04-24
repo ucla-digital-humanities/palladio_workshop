@@ -1,7 +1,7 @@
 Getting started with Palladio
 =============================
 
-Palladio (palladio.designhumanities.org), a product of Stanford’s
+[Palladio](https://hdlab.stanford.edu/palladio/), a product of Stanford’s
 Humanities + Design Lab, is a web-based visualization tool for complex
 humanities data. Think of Palladio as a sort of Swiss Army knife for
 humanities data. It’s one package that includes a number of tools, each
@@ -219,7 +219,7 @@ features of your data through **Facets** and **Timelines**. Let's start
 with a timeline, which is pretty much what it sounds like: a
 visualization of the distribution of your data over time.
 
-Start by clicking on **Timeline** tab at the bottom of your screen**.**
+Start by clicking on **Timeline** button at the bottom of your screen.
 Group your data by **Genre 1**. Now you can see the distribution of
 photos over time. That's interesting: looks like Cushman took a lot of
 photos in 1952.

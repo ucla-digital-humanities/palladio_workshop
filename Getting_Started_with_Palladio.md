@@ -131,22 +131,22 @@ Hey, you imported your data!
 
 As you can see, each column in your spreadsheet is a different category
 of data. If you look closely, you'll see that Palladio has automatically
-categorized your data as different datatypes: "IU Archives Number" is a
-**number**, for example, while "PURL" is a **URL**. And if you scroll
-down, you'll see that "Geocoordinates" is **Latlong**.
+categorized your data as different datatypes: "PURL" is a **URL**, for example, while "Geocoordinates" is **Latlong**.
 
 Tell Palladio what kind of data you have.
 -----------------------------------------
 
 ![](-imgs/media/ssimage4.png)
 
-One of your data categories is a date, but Palladio hasn't figured that
-out right away. We need to tell it, so that it treats this particular
-category as temporal data.
+Palladio hasn't figured out a couple of your datatypes right away. We need to tell it what they are, so that it treats these categories properly.
+
+Click on the **IU Archives Number** category. In the window that pops up, select
+**Number** from the **Data type** dropdown menu. Looks good! Click
+**Done**.
 
 Click on the **Date** category. In the window that pops up, select
-**Date** from the **Data type** dropdown menu. Looks good! Click
-**Done**.
+**Date** from the **Data type** dropdown menu. Now click
+**Done** again.
 
 Hide some data
 --------------

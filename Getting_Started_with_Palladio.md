@@ -113,7 +113,7 @@ Navigate to Palladio.
 
 ![](-imgs/media/ssimage1.png)
 
-Go to palladio.designhumanities.org and click on **Start**.
+Go to [https://hdlab.stanford.edu/palladio/](https://hdlab.stanford.edu/palladio/) and click on **Start**.
 
 Upload your spreadsheet.
 ------------------------

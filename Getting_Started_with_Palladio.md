@@ -8,7 +8,7 @@ humanities data. It’s one package that includes a number of tools, each
 of which allows you to get a different angle on the same data.
 
 Palladio is relatively new and still under active development which
-means that you will almost certainly encounter bugs! Still, it’s a very
+means that you may encounter bugs! Still, it’s a very
 useful tool for getting a handle on a complicated dataset.
 
 **When Might Palladio be the Right Tool for You?**
@@ -39,36 +39,36 @@ using faceted browsing.
 
 If you’re trying to analyze a long text, like a poem or a novel,
 Palladio won’t help you much. You’ll want to look for text analysis
-tools, like Voyant (http://voyant-tools.org/).
+tools, like [Voyant](http://voyant-tools.org/).
 
 **You just want to count things.**
 
 If you just want to make relatively simple charts and graphs, like a bar
 or pie chart, Palladio is too much tool for you! Instead, try using
-Excel’s built-in functions, or check out tools like Plot.ly or Tableau.
+Excel’s built-in functions, or check out tools like [DataWrapper](https://www.datawrapper.de/) or [Tableau](https://public.tableau.com/en-us/s/).
 
 **You want to present an interactive visualization.**
 
 One big limitation of Palladio is that you can’t embed or share the
 visualizations you create, except in static form. So while Palladio can
 help you explore and understand your data, it’s not great for
-presentation, at least not yet. Instead, try Google Fusion Tables,
-ManyEyes, or Tableau.
+presentation, at least not yet. Instead, try [Flourish](https://flourish.studio/),
+[DataWrapper](https://public.tableau.com/en-us/s/), or [Tableau](https://public.tableau.com/en-us/s/).
 
 **You want to create complex, fine-tuned maps and networks graphs.**
 
 While Palladio can produce maps and network graphs, you can’t customize
 them to any great extent, and you can’t perform sophisticated network
 analysis, such as calculating various measures of centrality. Instead,
-you might consider more sophisticated mapping tools, such as CartoDB or
-ArcGIS, and more sophisticated network analysis tools, such as Gephi and
-Cytoscape.
+you might consider more sophisticated mapping tools, such as [Carto](https://carto.com/) or
+[ArcGIS](https://www.arcgis.com/index.html), and more sophisticated network analysis tools, such as [Gephi](https://gephi.org/) and
+[Cytoscape](https://cytoscape.org/).
 
 **You hate bugs.**
 
-Palladio is still a baby, and you will almost certainly encounter some
+Palladio is still fairly young, and you may encounter some
 bugs. If you prefer not to use unstable software, you might investigate
-Google Fusion Tables or Tableau.
+[Flourish](https://flourish.studio/) or [Tableau](https://public.tableau.com/en-us/s/).
 
 With that out of the way, we're almost ready to get started using
 Palladio. First, though, a quick note that this tutorial does *not*
@@ -77,15 +77,13 @@ link multiple data tables together, its timespan feature, and a feature
 that allows you to use multiple basemaps. Perhaps these will be the
 subject of a later tutorial!
 
-A word on the dataset we'll use, which you can find here
-(https://www.dropbox.com/s/rn40mchgrusip0x/Cushman-Collection.csv?dl=0).
+A word on the dataset we'll use, which you can find [here](https://www.dropbox.com/s/rn40mchgrusip0x/Cushman-Collection.csv?dl=1).
 This is a spreadsheet that contains the metadata for a portion of the
-Charles Weever Cushman Collection of photographs, located at Indiana
-University (http://webapp1.dlib.indiana.edu/cushman/index.jsp). The full
+Charles Weever Cushman Collection of photographs, located at [Indiana
+University](http://webapp1.dlib.indiana.edu/cushman/index.jsp). The full
 Cushman Collection contains more than 14,500 Kodachrome photographs,
 taken between 1938 and 1969. Indiana University's archivists were
-forward-thinking enough to place this data on Github
-(https://github.com/iulibdcs/cushman_photos), which is how we're able
+forward-thinking enough to place this data on [Github](https://github.com/iulibdcs/cushman_photos), which is how we're able
 to use it.
 
 In order to make this data a little easier to work with, I've limited
@@ -93,10 +91,9 @@ this spreadsheet to photographs taken between 1938 and 1955. I've also
 removed the "End Date" field to prevent confusion, changed the format of
 the date field, and added geocoordinates so that we can map the data
 more easily. For a great introduction to how to do some of this data
-manipulation on your own data, see this handout, developed by Owen
+manipulation on your own data, see [this handout](https://www.dropbox.com/s/dkk4yjpc38wlpcx/Introduction%20to%20OpenRefine%20handout.pdf?dl=0), developed by Owen
 Stephens on behalf of the British Library, which explains how to use the
 data-cleaning application OpenRefine.
-(https://www.dropbox.com/s/dkk4yjpc38wlpcx/Introduction%20to%20OpenRefine%20handout.pdf?dl=0)
 
 A reminder that Palladio is still under development, so it can be buggy
 and slow! Some tips:
